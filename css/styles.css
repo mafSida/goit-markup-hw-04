@@ -145,7 +145,6 @@ img {
 /* HERO */
 
 .hero {
-  background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
   background-image: linear-gradient(
@@ -156,9 +155,9 @@ img {
     url(/images/background-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  width: 1440рх;
-  margin: 0 auto;
+  background-size: 1440рх cover;
+  /* max-width: 1440рх; */
+  /* margin: 0 auto; */
 }
 
 .hero .container {
@@ -264,6 +263,9 @@ img {
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  /* background: #fff; */
 }
 .team-list-img {
   max-width: 100%;
