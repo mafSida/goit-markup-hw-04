@@ -126,6 +126,7 @@ img {
 .header-address-list {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 .header-address-item {
 }
@@ -154,8 +155,10 @@ img {
     ),
     url(/images/background-image.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
+  width: 1440рх;
+  margin: 0 auto;
 }
 
 .hero .container {
@@ -264,6 +267,7 @@ img {
 }
 .team-list-img {
   max-width: 100%;
+  object-fit: cover;
 }
 
 .team-list-wrap {
