@@ -155,7 +155,7 @@ img {
     url(/images/background-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440рх cover;
+  background-size: 1440рх, cover;
   /* max-width: 1440рх; */
   /* margin: 0 auto; */
 }
@@ -166,6 +166,9 @@ img {
   align-items: center;
   justify-content: center;
 }
+
+/* .hero-wrap {
+} */
 
 .hero-title {
   font-weight: 700;
