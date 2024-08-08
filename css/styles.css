@@ -227,6 +227,19 @@ img {
 .features-list-item {
   width: calc((100% - 3 * 24px) / 4);
 }
+
+.features-icon-wrap {
+  background-color: #f4f4fd;
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .features-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -293,6 +306,29 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
+}
+
+.team-socials-list {
+  display: flex;
+  gap: 24px;
+  padding: 0 16px;
+}
+.team-socials-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.socials-list-link {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  display: block;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socials-icon {
 }
 
 /* PRODUCT */
