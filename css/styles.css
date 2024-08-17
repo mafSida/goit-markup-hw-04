@@ -313,6 +313,7 @@ img {
   display: flex;
   gap: 24px;
   padding: 0 16px;
+  justify-content: center;
 }
 .team-socials-item {
   width: calc((100% - 3 * 24px) / 4);
@@ -330,6 +331,7 @@ img {
 }
 
 .socials-icon {
+  fill: #f4f4fd;
 }
 
 /* PRODUCT */
