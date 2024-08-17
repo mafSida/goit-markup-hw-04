@@ -154,7 +154,8 @@ img {
     url(/images/background-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px auto;
+  background-size: cover;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -189,8 +190,7 @@ img {
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-order-btn:hover,
@@ -283,7 +283,8 @@ img {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-list-item:hover .socials-list-link {
+.team-list-item:hover .socials-list-link,
+.team-list-item:focus .socials-list-link {
   background-color: #404bbf;
 }
 
@@ -369,8 +370,7 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   background: #4d5ae5;
-  padding-right: 32px;
-  padding-left: 32px;
+  padding: 40px, 32px;
   display: flex;
   align-items: center;
   height: 100%;
