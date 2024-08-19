@@ -482,7 +482,10 @@ img {
   fill: #f4f4fd;
 }
 
-.footer-list-link:hover,
+.footer-list-link:hover {
+  background-color: #31d0aa;
+}
+
 .footer-list-link:focus,
 .footer-list-link:active {
   background-color: #31d0aa;
