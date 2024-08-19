@@ -339,8 +339,12 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials-list-link:hover,
-.team-list-link:focus {
+.socials-list-link:hover {
+  background-color: #404bbf;
+}
+
+.team-list-link:focus,
+.team-list-link:active {
   background-color: #404bbf;
 }
 
