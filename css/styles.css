@@ -378,7 +378,7 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   background: #4d5ae5;
-  padding: 40px, 32px;
+  padding: 40px 32px;
   display: flex;
   align-items: center;
   height: 100%;
@@ -391,7 +391,7 @@ img {
 }
 
 .product-list-wrap {
-  /* padding: 32px 16px; */
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
